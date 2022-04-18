@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+body{
+    text-align: center;
+    height: 100vh;
+    widows: 100vw;
+    overflow: hidden;
+    padding: 0;
+    color: darkblue;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 20px;
+    width: 80%;
+    height: 90vh;
+    max-width: 1100px;
+    max-height: 585px;
+    min-height: 580px;
+    min-width: 800px;
+    margin-left: 10vw;
+    margin-right: 10vw;    
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+.logo{
+    position: center;
+    left: 50px;
+
+}
+
+.linkedin{
+    position: absolute;
+    left: 94px;
+    top: 70px;
+   
+}
+
+
+img.logo {padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.exibirMsg{
+    display: flex;
+    position: absolute;;
+    right: 20px;
+    top: 20px;
+    width: 29%;
+    min-width: 240px;
+    height: calc(100% - 40px);    
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border: thick  rgb(77, 115, 240)
+}
+.divImg{
+    display: flex;
+    flex-direction: column;
+    align-self: center;     
+    
+}
+
+.divImg div{
+    max-width: 100%;
+}
+.divImg div img{
+    width: 100%;
+    
+    
+}
+
+.divText{
+    width: 100%;
+    font-size: 0.8rem;
+    font-family:Arial, Helvetica, sans-serif;   
+       
+    
+}  
+
+
+.divText h3{
+    font-size: 1.1rem;
+}
+.divText p{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+
+.divBotao{
+    position: absolute;
+    display: flex;
+    bottom: 0px;   
+    width: calc(100% - 40px);
+    padding-bottom: 20px;
+    justify-content: center;   
+}
+
+.divBotao button{    
+    width: 100%;
+    max-width: 223px;
+    margin-right: 0px;
+    display: none;
+
+}
+
+.entrada{
+    position:absolute;
+    top: 120px;
+    left: 130px;    
+    min-height: 35px;
+    width: 47%; 
+    min-width: 250px;
+    height: 320px;   
+    font-size: 1.4rem;
+    text-align: justify;   
+    background-color: transparent;
+    border: none;    
+    color: darkblue;
+    padding-left: 5px;
+    padding-top: 2px;
+    resize: none;   
+    border-width: medium;
+    border-style: solid;
+    border-color: #00f
+    
+}
+
+.buttons{
+    position: absolute;
+    width: 47%;
+    left: 130px;
+    bottom: calc(0% + 20px);
+    margin-bottom: 20px;    
+}
+.buttons button:first-child{
+    background-color: darkblue;
+    color: white;
+    
+}
+.bt{
+    height: 50px;
+    border-radius: 15px;
+    width: calc(100%/2 - 20px);
+    border: 1px solid darkblue;
+    margin-right: 10px;
+    cursor: pointer;    
+    
+}
+
+.msg{
+    font-family: Arial, Helvetica, sans-serif;
+   
+          
+}
+.msg p{
+    max-height: 430px;
+    overflow: auto;    
+    padding-right: 2px;
+    text-align: left;    
+    color: rgba(0, 0, 0, 0.6);
+   
+    
+}
+
